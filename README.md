@@ -1,178 +1,91 @@
-# Exno-2-Prompt-Engg
-
-# Ex.No: 2 	Evaluation of 2024 Prompting Tools Across Diverse AI Platforms: 
-ChatGPT, Claude, Bard, Cohere Command, and Meta 
-### DATE: 26.04.2025                                                                           
-### REGISTER NUMBER : 212222040163
+# Exno.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques
+### DATE: 26.04.2025                                                                     
+### REGISTER NUMBER : 212222060252
 ---
-### Aim:
-To compare the performance, user experience, and response quality of different AI platforms (ChatGPT, Claude, Bard, Cohere Command, and Meta) within a specific use case, such as summarizing text or answering technical questions. Generate a Prompt based output using different Prompting tools of 2024.
+### Aim: 
+Scenario-Based Report Development Utilizing Diverse Prompting Techniques
 
-### Algorithm:
-Define the Use Case:
-Select a specific task for evaluation across platforms (e.g., summarizing a document, answering a technical question, or generating a creative story / Code).
-Ensure the use case is applicable to all platforms and will allow for comparison across response quality, accuracy, and depth.
-Create a Set of Prompts:
-Prepare a uniform set of prompts that align with the chosen use case.
-Each prompt should be clear and precise, ensuring that all platforms are evaluated using the same input.
-Consider multiple prompts to capture the versatility of each platform in handling different aspects of the use case.
-Run the Experiment on Each AI Platform:
-Input the prompts into each AI tool (ChatGPT, Claude, Bard, Cohere Command, and Meta) and gather the responses.
-Ensure the same conditions are applied for each platform, such as input format, time to respond, and prompt delivery.
-Record response times, ease of interaction with the platform, and any technical issues encountered.
-Evaluate Response Quality:
-Assess each platform’s responses using the following criteria: Accuracy,Clarity,Depth,Relevance 
-Compare Performance:
-Compare the collected data to identify differences in performance across platforms.
-Identify any platform-specific advantages, such as faster response times, more accurate answers, or more intuitive interfaces.
-Deliverables:
-A comparison table outlining the performance of each platform (ChatGPT, Claude, Bard, Cohere Command, and Meta) based on accuracy, clarity, depth, and relevance of responses.
-A final report summarizing the findings of the experiment, including recommendations on the most suitable AI platform for different use cases based on performance and user 
+### Algorithm:  
+The goal of this experiment is to design and develop an AI-powered chatbot that can handle customer inquiries, provide support, and improve customer experience in a retail environment. Create prompts using various AI prompting techniques to guide your experiment, data collection, analysis, and report creation
 
-### Introduction:
-Objective: Compare the performance, user experience, and response quality of AI platforms in a specific use case.
-Use Case: [e.g., Summarization, Technical Q&A, Creative Writing]
-AI Platforms Tested: ChatGPT, Claude, Gemini, Meta
-### Experiment Setup:
-Use Case: [Summarization / Technical Q&A / Creative Writing]
-Evaluation Criteria: Accuracy, Response Time, UX (User Experience)
-#### Prompt 1(Summarization): 
-"Summarize the following passage in 2-3 sentences:
-Artificial Intelligence (AI) has rapidly transformed various industries, from healthcare to finance. In healthcare, AI-powered diagnostic tools are improving early disease detection, reducing errors, and assisting doctors in making data-driven decisions. Similarly, in finance, AI-driven algorithms optimize trading strategies, detect fraudulent activities, and enhance customer experiences through personalized services. However, ethical concerns such as bias in AI models, data privacy, and job displacement continue to be challenges that need careful regulation. Experts emphasize the importance of transparency, accountability, and continuous evaluation to ensure AI benefits society without unintended consequences."
-#### Prompt 2(Technical Q&A): 
-Briefly explain how AI helps in fraud detection and its potential risks (limit: 3 sentences).
-#### Prompt 3(Creative Writing): 
-Write a short paragraph (maximum 3 sentences) from the perspective of an AI struggling with emotional intelligence.
+### Prompting Techniques by Stage
+#### 1. Experiment Design
+#### Broad/Naïve Prompting:
 
-### Response Analysis:
-#### ChatGPT Evaluation
-Criteria	Rating (1-5)
+“What services should a retail chatbot offer?”
 
-Accuracy (Is the answer correct and relevant?)	4/ 5
+#### Specific Prompting:
 
-Response Time (Was the answer given quickly?)	4 / 5
+“Name 5 customer support features for an e-commerce chatbot.”
 
-UX (User Experience) (Was the interaction smooth and useful?)	4 / 5
+#### Scenario-Based Prompting:
 
-Overall Score (Total)	12/ 15
+“Imagine a customer looking for a late delivery update. How should the chatbot respond?”
 
-#### Claude Evaluation
+#### 2. Data Collection
+#### Role Prompting:
 
-Criteria	Rating (1-5)
+“You are a frustrated customer—ask about your order.”
 
-Accuracy	3/ 5
+#### Few-Shot Prompting:
 
-Response Time	5/ 5
+Provide short back-and-forth sample conversations for data synthesis.
 
-UX (User Experience)	5 / 5
+#### Survey Prompts:
 
-Overall Score (Total)	13/ 15
+“Rate your experience from 1-10.”
 
-#### Gemini Evaluation
+#### Follow-Up Prompts:
 
-Criteria	Rating (1-5)
+“If the chatbot didn’t help, what went wrong?”
 
-Accuracy	3/ 5
+#### 3. Model Training
+Instruction Prompting:
 
-Response Time	3 / 5
+“Classify queries into: Order Status, Product Info, Complaints.”
 
-UX (User Experience)	3.5 / 5
+#### Chain-of-Thought Prompting:
 
-Overall Score (Total)	10 / 15
+Step-by-step handling of complaints (e.g., ask for ID, check eligibility, respond).
 
-#### Meta Evaluation
+#### Zero-Shot Prompting:
 
-Criteria	Rating (1-5)
+Classify unseen queries without examples to test generalization.
 
-Accuracy	4/ 5
+#### 4. Evaluation & Analysis
+Reflexive Prompting:
 
-Response Time	3/ 5
+Ask the AI to critique its own response and offer a better one.
 
-UX (User Experience)	4 / 5
+#### Comparative Prompting:
 
-Overall Score (Total)	11 / 15
+“Compare chatbot accuracy before and after fine-tuning.”
 
-### Final Winner
-#### Best Overall AI: Claude
-Reason: The User Experience was good and colour full compared to others
+#### Data Synthesis Prompts:
 
-### AI outputs:
-#### 1: Prompt 1(Summarization): "Summarize the following passage in 2-3 sentences:
-Artificial Intelligence (AI) has rapidly transformed various industries, from healthcare to finance. In healthcare, AI-powered diagnostic tools are improving early disease detection, reducing errors, and assisting doctors in making data-driven decisions. Similarly, in finance, AI-driven algorithms optimize trading strategies, detect fraudulent activities, and enhance customer experiences through personalized services. However, ethical concerns such as bias in AI models, data privacy, and job displacement continue to be challenges that need careful regulation. Experts emphasize the importance of transparency, accountability, and continuous evaluation to ensure AI benefits society without unintended consequences."
+“List top features users requested.”
 
-Chat CPT:
+#### 5. Report Creation
+#### Persona Prompting:
 
-![image](https://github.com/user-attachments/assets/c5034fb1-26f4-4308-991d-c1e7e79f6741)
+“Explain performance findings to retail managers in simple terms.”
 
-Claude:
+#### Summary Prompting:
 
-![image](https://github.com/user-attachments/assets/f9fb0e67-053c-475e-b5b0-39f2a1128b32)
+“Summarize key issues users faced with the chatbot.”
 
-Gemini:
+#### Recommendation Prompting:
 
-![image](https://github.com/user-attachments/assets/eb2065b8-dc4e-446a-b866-9bbc67ffca07)
+“Based on feedback, suggest 3 improvements.”
 
-Meta:
+#### Experiment Workflow Table:
 
-![image](https://github.com/user-attachments/assets/9e386b50-185b-4f25-8fc9-514ac00aaa1e)
+![image](https://github.com/user-attachments/assets/940f09bf-80b3-4574-bb6d-e12385ca47c8)
 
-#### 2: Prompt 2(Technical Q&A): Briefly explain how AI helps in fraud detection and its potential risks (limit: 3 sentences).
+#### Findings:
+User Needs Identified
+Prompt Techniques Effectiveness
+Chatbot Accuracy, Relevance, and Response Time
 
-Chat GPT:
-
-![image](https://github.com/user-attachments/assets/3e0d9856-e6ac-41d0-9d9a-c3d5b87a7ce8)
- 
-Claude:
-
-![image](https://github.com/user-attachments/assets/f85974f5-4f83-431f-bf82-7e5e87ab814a)
-
-Gemini:
-
-![image](https://github.com/user-attachments/assets/16615e6e-f209-4ff3-ae3e-9f6dd3125b93)
- 
-Meta:
-
-![image](https://github.com/user-attachments/assets/7241a433-2e52-4647-923c-02b4360bdee5)
-
-#### 3: Prompt 3(Creative Writing): Write a short paragraph (maximum 3 sentences) from the perspective of an AI struggling with emotional intelligence.
-
-Chat GPT:
-
-![image](https://github.com/user-attachments/assets/9c53f77f-486e-463a-a1d4-0192724ef531)
- 
-Claude:
-
-![image](https://github.com/user-attachments/assets/e6bfd27e-e7f3-4784-bbc4-f85f00ca0019)
-
-Gemini:
-
-![image](https://github.com/user-attachments/assets/e97f0cad-b819-4d24-8ae5-834a85a2e1db)
-
-Meta:
-
-![image](https://github.com/user-attachments/assets/10e76f4c-5377-4525-9ec9-398a58d28a24)
-
-### Analysis & Discussion
-#### ChatGPT (GPT-4): 
-This platform excelled in all areas, particularly clarity and relevance. The summary was both concise and accurate, with just the right amount of detail for college students. Its strengths make it ideal for educational use, where students need clear and precise information without over-simplification.
-
-#### Claude (Claude 3):
-Claude performed well, though slightly less accurate than ChatGPT in its explanations. It did, however, maintain strong clarity and relevance, which could make it suitable for educational contexts, albeit with slightly less depth than ChatGPT.
-
-#### Bard (Gemini 1.5): 
-Bard’s summary was quick and simple, but it lacked depth and technical coverage. This makes it more suitable for quick summaries but not for detailed educational use where understanding the underlying concepts is key.
-
-#### Cohere Command R+:
-Cohere’s summary was overly simplified, lacking the technical depth needed for a comprehensive understanding. This tool might be best for general audiences or for contexts where extreme simplicity is required, but not for technical education.
-
-#### Meta (LLaMA 2): 
-Meta’s output was vague and lacked both depth and clarity. It scored poorly across all metrics and should likely be avoided for technical summarization tasks in educational settings.
-
-![Screenshot 2025-04-25 085521](https://github.com/user-attachments/assets/f1ce6cd4-7078-4bd4-ab0f-403f18287049)
- 
-### Conclusion & Insights:
-#### Best Performing AI:  Claude
-Claude emerged as the best-performing AI platform in this evaluation, offering the most balanced experience across accuracy, response time, and user experience. While ChatGPT and Meta showed strong accuracy, Claude’s quick responses and smooth, user-friendly interface gave it the edge overall. Gemini performed modestly, with room for improvement in both speed and content quality. Ultimately, Claude is recommended for users seeking an all-around reliable AI, while those prioritizing technical accuracy might prefer ChatGPT or Meta.
-
-### Result:
-Thus the Prompting tools are executed and analysed sucessfully .
+# Result: 
+Thus the Prompts were exected succcessfully.
